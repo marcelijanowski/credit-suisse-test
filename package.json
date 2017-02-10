@@ -1,0 +1,50 @@
+{
+  "name": "credit-suisse-test",
+  "description": "Credit suiss test",
+  "author": "Marceli Janowski <marceli@mjdesign.pl>",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "devDependencies": {
+    "babel-register": "6.22.0",
+    "chai": "3.5.0",
+    "chokidar-cli": "1.2.0",
+    "classnames": "2.2.5",
+    "enzyme": "2.7.1",
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.9.0",
+    "ignore-styles": "5.0.1",
+    "mocha": "3.2.0",
+    "mock-css-modules": "1.0.0",
+    "moment": "2.17.1",
+    "moment-timezone": "0.5.11",
+    "react-addons-test-utils": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "5.0.2",
+    "react-router": "2.8.1",
+    "react-router-redux": "4.0.7",
+    "react-scripts": "0.8.5",
+    "redux": "3.6.0",
+    "redux-logger": "2.7.4",
+    "redux-thunk": "2.2.0",
+    "seamless-immutable": "7.0.1",
+    "sinon": "1.17.7"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  },
+  "scripts": {
+    "start": "PORT=3003 react-scripts start",
+    "build": "react-scripts build",
+    "test": "NODE_ENV=test mocha --opts .mocha.opts",
+    "test:watch": "NODE_ENV=test chokidar './src/**/*.js' --command 'mocha --opts .mocha.opts' --initial",
+    "lint": "eslint ./src"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

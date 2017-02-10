@@ -1,0 +1,4 @@
+--require babel-register
+--require ignore-styles
+--require mock-css-modules
+./src/**/*.spec.js

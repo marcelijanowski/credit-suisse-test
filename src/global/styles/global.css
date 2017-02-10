@@ -1,0 +1,31 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  color: #333F48;
+  font-size: 17px;
+  padding: 0 10px;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 1170px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0
+}
+
+p {
+  margin: 1em 0 1em 0;
+}
+
+button, select {
+  font-family: 'BGFlame', sans-serif;
+}
+
+a {
+  color: #0099FF;
+}

@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.App__Content {
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.App__PageWrapper {
+  padding-left: 0.5em;
+}
+
+.App__Version {
+  color: #888;
+  font-size: 0.75em;
+  margin: 1.25em 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .App__Content {
+    order: 1;
+    flex: none;
+  }
+}
