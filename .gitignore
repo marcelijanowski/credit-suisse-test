@@ -8,19 +8,6 @@ npm-debug.log
 # Webpack builds
 dist/
 
-# Cordova
-cordova/www/*
-cordova/www/**.*
-!cordova/www/.gitkeep
-cordova/plugins/
-cordova/platforms/
-build/
-bin/
-
-# Cordova build config
-cordova-build/*.json
-cordova-build/config/*.json
-
 # IDEs
 *.iml
 .idea
